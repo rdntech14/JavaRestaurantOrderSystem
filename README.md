@@ -1,7 +1,7 @@
 Restaurant Order System in Java
 =====
 
-This sample program demonstrates how to create a simple Restaurant Order System
+This program demonstrates how to create a simple Restaurant Order System
 
 **Program Input** 
 
@@ -35,13 +35,13 @@ Adding item :
 itemName : Coke
 ItemDetails [itemName=Coke, itemPrice=1.5]
 
-######### Order Bill ############
+################# Order Bill #############
 ----------------------------------
 Item             :   Quantity    :   Price  
 Veg Burger       :      1        :   4.25
 Coke             :      2        :   3.0
-Chicken Burger :        1        :   5.25
+Chicken Burger   :      1        :   5.25
 ----------------------------------
 Total Price                      :  12.5
-###################################
+###########################################
 ```
