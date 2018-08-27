@@ -36,8 +36,8 @@ itemName : Coke
 ItemDetails [itemName=Coke, itemPrice=1.5]
 
 ################# Order Bill #############
-------------------------------------------
 Item             :   Quantity    :   Price  
+------------------------------------------
 Veg Burger       :      1        :   4.25
 Coke             :      2        :   3.0
 Chicken Burger   :      1        :   5.25
