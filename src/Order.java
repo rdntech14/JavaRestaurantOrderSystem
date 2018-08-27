@@ -42,11 +42,13 @@ public class Order {
 	public void printBill() {
 		System.out.println("");
 		System.out.println("######### Order Bill ############");
-		System.out.println("Item      Quantity       Price");
+		System.out.println("----------------------------------");
+		System.out.println("Item   :   Quantity    :   Price");
 		for (Map.Entry<String, BillDetails> m : linkedHashMap.entrySet()) {
 			System.out.println(
 					m.getKey() + " : " + m.getValue().getItemQuantities() + " : " + m.getValue().getItemPrices());
 		}
+		System.out.println("----------------------------------");
 		System.out.println("Total Price : " + totalPrice);
 
 		System.out.println("###################################");
